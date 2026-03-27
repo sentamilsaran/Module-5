@@ -13,7 +13,16 @@ To write a Python program that creates a **Student** class with a **default cons
 ## 🧾 Program
 
 Add code here
-
+class student:
+    def __init__(self):
+        print("This is non parametrized constructor")
+    def display_welcome(self,name):
+        print(f"Hello {name}")
+name=input()
+studentinstance=student()
+studentinstance.display_welcome(name)
 ## Output
+<img width="838" height="220" alt="image" src="https://github.com/user-attachments/assets/e1f396de-a866-4db1-bd16-bc24cc6eecd2" />
 
 ## Result
+Thus the output is Verified.
